@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <clinic>
-<patient id="P-101" status="critical">
-<name>Amina Noor</name>
-<ward>Emergency</ward>
-<condition>Fever and tachycardia</condition>
-<observation code="HR" unit="bpm">118</observation>
-</patient>
- 
-  <!-- TODO 1: Add second patient -->
-<patient id="P-102" status="stable">
-<name>Daniel Lee</name>
-<ward>General Ward</ward>
- 
-    <!-- TODO 2: Escape ampersand -->
-<condition>Cough &amp; cold</condition>
- 
+  <patient id="P-101" status="critical">
+    <name>Amina Noor</name>
+    <ward>Emergency</ward>
+    <condition>Fever and tachycardia</condition>
+    <observation code="HR" unit="bpm">118</observation>
+  </patient>
+
+  <patient id="P-102" status="stable">
+    <name>Daniel Lee</name>
+    <ward>General Ward</ward>
+    <condition>Cough &amp; cold</condition>
     <observation code="TEMP" unit="C">37.2</observation>
-</patient>
+  </patient>
 </clinic>
+  
